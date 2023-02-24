@@ -1,0 +1,105 @@
+/* src/components/Todo.css */
+
+body {
+  background-image: url("../images/To_Do_List.png");
+}
+
+.todo-container {
+  background: rgb(41, 33, 33);
+  width: 70vw;
+  height: 30vw;
+  margin: 10em auto;
+  border-radius: 15px;
+  padding: 20px 10px;
+  color: white;
+  border: 3px solid rgb(41, 33, 33);
+}
+
+.task {
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 0.5em;
+  margin: 0.5em;
+}
+
+.task button {
+  background: rgb(12, 124, 251);
+  border-radius: 5px;
+  margin: 0px 5px;
+  padding: 3px 5px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  float: right;
+}
+
+.header {
+  margin: 0.5em;
+  font-size: 2em;
+  text-align: center;
+}
+
+.create-task input[type="text"] {
+  margin: 2.5em 2em;
+  width: 80%;
+  outline: none;
+  border: none;
+  padding: 0.7em;
+}
+
+.btnAdd {
+  background: green;
+  border-radius: 5px;
+  margin: 0px 5px;
+}
+table.dark {
+  border-collapse: collapse;
+  border: 1px solid #1a1a1a;
+  width: 90%;
+  margin-left: 2%;
+  overflow: auto;
+}
+table.dark th {
+  color: #d6d6d6;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  text-transform: uppercase;
+  letter-spacing: 0.13em;
+  padding: 7px;
+  background-color: #1c1c1c;
+  border-bottom: 1px solid #000;
+  position: sticky;
+  top: 0;
+}
+
+table.dark td {
+  color: #8e8e8e;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-weight: bold;
+  height: 64px;
+  padding: 7px;
+  background-color: #303030;
+  border-right: 1px solid #1a1a1a;
+}
+
+table.dark h4 {
+  color: #efefef;
+  font-size: 140%;
+  font-weight: normal;
+  margin: 0px;
+}
+
+.completed-task {
+  text-decoration: line-through;
+  text-decoration-color: red;
+}
+.tablediv {
+  width: 100%;
+  height: 200px;
+  overflow-y: auto;
+}
+.btn-style {
+  background-color: white;
+  border-radius: 7px !important;
+}
